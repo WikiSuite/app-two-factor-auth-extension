@@ -34,7 +34,6 @@ mkdir -p -m 755 %{buildroot}/usr/clearos/apps/two_factor_auth_extension
 cp -r * %{buildroot}/usr/clearos/apps/two_factor_auth_extension/
 
 install -D -m 0644 packaging/two_factor_auth.php %{buildroot}/var/clearos/openldap_directory/extensions/73_two_factor_auth.php
-install -D -m 0644 packaging/two_factor_auth_extension.conf %{buildroot}/etc/clearos/two_factor_auth_extension.conf
 
 %post core
 logger -p local6.notice -t installer 'app-two-factor-auth-extension-core - installing'
@@ -63,4 +62,3 @@ exit 0
 /usr/clearos/apps/two_factor_auth_extension/language
 /usr/clearos/apps/two_factor_auth_extension/libraries
 /var/clearos/openldap_directory/extensions/73_two_factor_auth.php
-%config(noreplace) /etc/clearos/two_factor_auth_extension.conf

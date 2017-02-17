@@ -37,14 +37,6 @@ $app['core_file_manifest'] = array(
     'two_factor_auth.php' => array(
         'target' => '/var/clearos/openldap_directory/extensions/73_two_factor_auth.php'
     ),
-    'two_factor_auth_extension.conf' => array(
-        'target' => '/etc/clearos/two_factor_auth_extension.conf',
-        'mode' => '0644',
-        'owner' => 'root',
-        'group' => 'root',
-        'config' => TRUE,
-        'config_params' => 'noreplace',
-    ),
 );
 
 $app['delete_dependency'] = array();

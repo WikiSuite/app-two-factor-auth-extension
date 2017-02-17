@@ -67,13 +67,13 @@ clearos_load_library('openldap_directory/Utilities');
 ///////////////////////////////////////////////////////////////////////////////
 
 /**
- * Mail OpenLDAP user extension.
+ * Two Factor Authentication OpenLDAP user extension.
  *
  * @category   apps
- * @package    mail-extension
+ * @package    two-factor-auth-extension
  * @subpackage libraries
- * @author     ClearFoundation <developer@clearfoundation.com>
- * @copyright  2011-2012 ClearFoundation
+ * @author     eGloo <team@egloo.ca>
+ * @copyright  2017 Avantech
  * @license    http://www.gnu.org/copyleft/lgpl.html GNU Lesser General Public License version 3 or later
  * @link       http://www.clearfoundation.com/docs/developer/apps/two_factor_auth_extension/
  */
@@ -91,7 +91,7 @@ class OpenLDAP_User_Extension extends Engine
     ///////////////////////////////////////////////////////////////////////////////
 
     /**
-     * Mail OpenLDAP_User_Extension constructor.
+     * Two Factor Auth User Extension constructor.
      */
 
     public function __construct()
