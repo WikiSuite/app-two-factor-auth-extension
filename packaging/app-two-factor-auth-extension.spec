@@ -1,7 +1,7 @@
 
 Name: app-two-factor-auth-extension
 Epoch: 1
-Version: 2.3.0
+Version: 2.3.1
 Release: 1%{dist}
 Summary: Webconfig Two-Factor Authentication - Core
 License: LGPLv3
@@ -57,6 +57,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/two_factor_auth_extension/packaging
+%exclude /usr/clearos/apps/two_factor_auth_extension/unify.json
 %dir /usr/clearos/apps/two_factor_auth_extension
 /usr/clearos/apps/two_factor_auth_extension/deploy
 /usr/clearos/apps/two_factor_auth_extension/language
