@@ -1,13 +1,13 @@
 
 Name: app-two-factor-auth-extension
 Epoch: 1
-Version: 2.3.1
+Version: 2.3.2
 Release: 1%{dist}
 Summary: Webconfig Two-Factor Authentication - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Packager: eGloo
-Vendor: Avantech
+Vendor: WikiSuite
 Source: app-two-factor-auth-extension-%{version}.tar.gz
 Buildarch: noarch
 

@@ -5,9 +5,9 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'two_factor_auth_extension';
-$app['version'] = '2.3.1';
+$app['version'] = '2.3.2';
 $app['release'] = '1';
-$app['vendor'] = 'Avantech';
+$app['vendor'] = 'WikiSuite';
 $app['packager'] = 'eGloo';
 $app['license'] = 'GPLv3';
 $app['license_core'] = 'LGPLv3';
